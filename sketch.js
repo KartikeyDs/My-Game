@@ -1,7 +1,3 @@
-//Ryuk Theme c;
-//Ryuk Theme b;
-//Light's b;
-
 var gameState = 0;
 var score = 0;
 var health = 100;
