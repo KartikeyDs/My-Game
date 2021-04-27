@@ -1700,7 +1700,7 @@ textSize(40)
         text("You survived ", 39650, displayHeight-400);
         textSize(30)
         text("By :- Kartikey Das Shukla", 39320, displayHeight-175)
-        
+         text("Guide teacher :- Shrutika Nikalje", 39320, displayHeight-140)
         }
 }
 
