@@ -97,7 +97,7 @@ loose = loadSound("Sound/Loose music.mp3");
 win = loadSound("Sound/Win Music.mp3")
                                                  
 //Buttons:-
-start_btn_Img = loadImage("Buttons/e.png");
+start_btn_Img = loadImage("Buttons/btn_e.png");
 play_btn_Img = loadImage("Buttons/play.png");
 
 //Backgrounds:-
