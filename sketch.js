@@ -126,7 +126,7 @@ brickb_Img = loadImage("level/Bricks2.png");
 
 //Animations:-
 
-//bg_home_Img = loadAnimation("Home/_0.png","Home/_1.png","Home/_2.png","Home/_3.png","Home/_4.png","Home/_5.png","Home/_6.png","Home/_7.png","Home/_8.png","Home/_9.png","Home/_10.png","Home/_11.png","Home/_12.png");
+bg_home_Img = loadAnimation("Home/_0.png","Home/_1.png","Home/_2.png","Home/_3.png","Home/_4.png","Home/_5.png","Home/_6.png","Home/_7.png","Home/_8.png","Home/_9.png","Home/_10.png","Home/_11.png","Home/_12.png");
 //storm_Img = loadAnimation("/Story/0.png ", "/Story/1.png","/Story/2.png", "/Story/3.png", "/Story/4.png", "/Story/5.png", "/Story/6.png", "/Story/7.png", "/Story/8.png", "/Story/9.png", "/Story/10.png", "/Story/11.png", "/Story/12.png", "/Story/13.png", "/Story/14.png", "/Story/15.png", "/Story/16.png", "/Story/17.png", "/Story/18.png", "/Story/19.png", "/Story/20.png", "/Story/21.png", "/Story/22.png", "/Story/23.png", "/Story/24.png", "/Story/25.png", "/Story/26.png", "/Story/27.png", "/Story/28.png", "/Story/29.png", "/Story/30.png", "/Story/31.png", "/Story/32.png", "/Story/33.png", "/Story/34.png", "/Story/35.png");
 //island_Img = loadAnimation("/Story/36.png", "/Story/37.png", "/Story/38.png", "/Story/39.png", "/Story/40.png", "/Story/41.png", "/Story/42.png", "/Story/43.png", "/Story/44.png", "/Story/45.png", "/Story/46.png", "/Story/47.png", "/Story/48.png", "/Story/49.png")
 jin_a_Img = loadAnimation("Hero a/a_0.png","Hero a/a_1.png","Hero a/a_2.png","Hero a/a_3.png","Hero a/a_4.png","Hero a/a_5.png","Hero a/a_6.png","Hero a/a_7.png","Hero a/a_8.png","Hero a/a_9.png",)
