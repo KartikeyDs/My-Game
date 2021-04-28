@@ -106,7 +106,6 @@ play_btn_Img = loadImage("Buttons/play.png");
 bg2_Img = loadImage("Backgrounds/b2.JPG ")
 
 //Images:-
-bricks_1_Img = loadImage("level/Bricks.png");
 spikes_Img = loadImage("level/Spikes.png");
 lava_Img = loadImage("level/Lava.png")
 brick_Img = loadImage("level/Brick.png");
