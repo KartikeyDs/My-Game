@@ -16,7 +16,6 @@ var storm_so
 var explosion_
 //Timer 
 var timer = 0;
-
 //Game objects:-
 var heart, heart_Img;
 var bricks_1, bricks_1_Img;
