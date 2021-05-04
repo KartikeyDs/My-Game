@@ -85,7 +85,7 @@ var bg2,bg3,bg4,bg5,bg6,bg7,bg8,bg9,bg10,bg11,bg12,bg13,bg14,bg15,bg16,bg17,bg18
 function preload() {
 
 //Story Sounds:-
-storm_so = loadSound("Sound/storm_s.mp3");
+//storm_so = loadSound("Sound/storm_s.mp3");
 explosion_ = loadSound("Sound/explosion.mp3");
 crunching = loadSound("Sound/Crunch.mp3");
 blast = loadSound("Sound/fireball.mp3");
@@ -93,8 +93,8 @@ coin_ = loadSound("Sound/coin.wav");
 //lava_ = loadSound("/Sound/Lava.mp3");
 home = loadSound("Sound/Home music.mp3");
 game = loadSound("Sound/Game music.mp3");
-loose = loadSound("Sound/Loose music.mp3");
-win = loadSound("Sound/Win Music.mp3")
+//loose = loadSound("Sound/Loose music.mp3");
+//win = loadSound("Sound/Win Music.mp3")
                                                  
 //Buttons:-
 start_btn_Img = loadImage("Buttons/start.png");
@@ -102,7 +102,7 @@ play_btn_Img = loadImage("Buttons/play.png");
 
 //Backgrounds:-
 
-bg2_Img = loadImage("Backgrounds/background_.JPG ")
+bg2_Img = loadImage("Backgrounds/background_.jpg")
 
 //Images:-
 bricks_1_Img = loadImage("level/Bricks.png");
@@ -134,7 +134,7 @@ l = loadAnimation("Hero a_l/a_0_l.png","Hero a_l/a_1_l.png","Hero a_l/a_2_l.png"
 bomb_Img = loadAnimation("Bomb/b_1.png","Bomb/b_2.png","Bomb/b_3.png","Bomb/b_4.png","Bomb/b_5.png","Bomb/b_6.png","Bomb/b_7.png","Bomb/b_8.png","Bomb/b_9.png","Bomb/b_10.png","Bomb/b_11.png","Bomb/b_12.png",)
 question_b_Img = loadAnimation("question box/q_0.png","question box/q_1.png","question box/q_2.png","question box/q_3.png")
 mob_Img = loadAnimation("Mob/m_1.png","Mob/m_2.png","Mob/m_3.png","Mob/m_4.png","Mob/m_5.png","Mob/m_6.png","Mob/m_7.png","Mob/m_8.png",)
-x = loadAnimation("Hero b/b_0.png","Hero b/b_1.png","Hero b/b_2.png","/\Hero b/herob_3.png","Hero b/b_4.png","Hero b/b_5.png","Hero b/b_6.png","Hero b/b_7.png","Hero b/b_8.png","Hero b/b_9.png","Hero b/b_10.png","Hero b/b_11.png","Hero b/b_12.png","Hero b/b_13.png","Hero b/b_14.png","Hero b/b_15.png","Hero b/b_16.png",)
+x = loadAnimation("Hero b/b_0.png","Hero b/b_1.png","Hero b/b_2.png","Hero b/herob_3.png","Hero b/b_4.png","Hero b/b_5.png","Hero b/b_6.png","Hero b/b_7.png","Hero b/b_8.png","Hero b/b_9.png","Hero b/b_10.png","Hero b/b_11.png","Hero b/b_12.png","Hero b/b_13.png","Hero b/b_14.png","Hero b/b_15.png","Hero b/b_16.png",)
 //y = loadAnimation("/Hero c/c_0.png","/Hero c/c_1","/Hero c/c_2","/Hero c/c_3  ","/Hero c/c_4","/Hero c/c_5","/Hero c/c_6","/Hero c/c_7","/Hero c/c_8","/Hero c/c_9","/Hero c/c_10","/Hero c/c_11","/Hero c/c_12","/Hero c/c_13","/Hero c/c_14","/Hero c/c_15","/Hero c/c_16",)
 coin_Img = loadAnimation("coin/co0.png","coin/co1.png","coin/co2.png","coin/co3.png","coin/co4.png","coin/co5.png");
 fireball_Img = loadAnimation("fireball/f0.png","fireball/f1.png","fireball/f2.png","fireball/f3.png","fireball/f4.png","fireball/f5.png","fireball/f6.png","fireball/f7.png","fireball/f8.png","fireball/f9.png","fireball/f10.png","fireball/f11.png","fireball/f12.png","fireball/f13.png","fireball/f14.png","fireball/f15.png","fireball/f16.png","fireball/f17.png","fireball/f18.png","fireball/f19.png","fireball/f20.png","fireball/f21.png","fireball/f22.png")
