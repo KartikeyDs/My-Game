@@ -775,30 +775,41 @@ function setup() {
   bomb_4.velocityY = -3
   }
 
-  if(bomb_.isTouching(in1)){
-  bomb_.velocityX = 4;
+  if(bomb_.isTouching(in1)&&gameState === 2){
   bomb_.visible = false;;
   bomb_r.visible = true;
   }
 
-  if(bomb_.isTouching(in2)){
-  bomb_.velocityX = -4;
+  if(bomb_.isTouching(in1)){
+    bomb_.velocityX = 4;
+  }
+
+  if(bomb_.isTouching(in2)&&gameState === 2){
   bomb_r.visible = false;
   bomb_.visible = true;
   }
 
-  if(bomb_1.isTouching(in1)){
-  bomb_1.velocityX = 4;
-  bomb_1.visible = false;
+  if(bomb_.isTouching(in2)){
+    bomb_.velocityX = -4;
+  }
+
+  if(bomb_1.isTouching(in1)&&gameState === 2 ){
+   bomb_1.visible = false;
   bomb_1r.visible = true;
   }
+
+  if(bomb_1.isTouching(in1)){
+    bomb_1.velocityX = 4;
+  }
     
-  if(bomb_1.isTouching(in2)){
-  bomb_1.velocityX = -4;
-  bomb_1r.visible = false;
+  if(bomb_1.isTouching(in2)&&gameState === 2){
+   bomb_1r.visible = false;
   bomb_1.visible = true;
   }
 
+  if(bomb_1.isTouching(in2)){
+    bomb_1.velocityX = -4;
+  }
   if(mob_.isTouching(in3)){
   mob_.velocityX = 2;
   mob_.visible = false;
@@ -1645,8 +1656,8 @@ health = health-50
     fill("white")
     textSize(20)
     text("1) Hit the mistery box", jin_a.x-650,displayHeight-700);
-    text("2) Collect coins to get hint for treasure", jin_a.x-650, displayHeight-670);
-    text("3) Deafeat all the knights to enter the final battle", jin_a.x-650, displayHeight-640);
+    text("2) Collect coins", jin_a.x-650, displayHeight-670);
+    text("3) Deafeat all the knights", jin_a.x-650, displayHeight-640);
     textSize(30)
     text("Objectives :-", jin_a.x-650,displayHeight-730);
     text("Use arrow keys to move ", displayHeight-1400, displayHeight-400)
@@ -1663,8 +1674,8 @@ health = health-50
     text("Press 'z' to attack", displayWidth+9950,displayHeight-720);
     textSize(20)
     text("1) Hit the mistery box", jin_a.x-650,displayHeight-700);
-    text("2) Collect coins to get hint for treasure", jin_a.x-650, displayHeight-670);
-    text("3) Deafeat all the knights to enter the final battle", jin_a.x-650, displayHeight-640);
+    text("2) Collect coins", jin_a.x-650, displayHeight-670);
+    text("3) Deafeat all the knights", jin_a.x-650, displayHeight-640);
     textSize(30)
     text("Objectives :-", jin_a.x-650,displayHeight-730);
     textSize(70);
