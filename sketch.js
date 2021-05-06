@@ -1,3 +1,8 @@
+/*
+By Kartikey Das Shukla
+Guide Teacher - Shrutika Nikalje
+*/
+
 var gameState = 0;
 var score = 0;
 var health = 100;
@@ -147,11 +152,9 @@ treasure_Img = loadAnimation("Treasure/tr1.png","Treasure/tr2.png","Treasure/tr3
 function setup() {
   createCanvas(windowWidth, windowHeight);
 
-  home.loop()
+  home.loop();
 
-  if(gameState === 3){
-    loose.play();
-    }
+  
 
   bg13 = createSprite(displayWidth+12300, displayHeight-420);
   bg13.addImage("bg2_",bg2_Img);
@@ -1652,6 +1655,7 @@ health = health-50
   }
 
   if(gameState === 2) {
+    
     textFont("Georgia");
     fill("white")
     textSize(20)
@@ -1715,11 +1719,11 @@ textSize(40)
 }
 
 function startButton(){
-
+  gameState = 2;
   game.loop();
   home.stop();
 
-  gameState = 2;
+  
 
   bg_home.destroy();
   start_btn.destroy();
