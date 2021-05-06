@@ -1889,18 +1889,14 @@ function startButton(){
 ob_1 = createSprite(0, 50,0,0);
 ob_1.velocityX = +9.5;
 //ob_1.visible = false;
-
 ob_2 = createSprite(1365, 500,2,1000)
 //ob_2.visible = false;
-
 storm_ = createSprite(displayWidth-670, displayHeight-440, 10,10);
 storm_.scale = 2.3
 storm_.addAnimation("st_", storm_Img);
-
 if(ob_1.isTouching(ob_2)){
   storm_.destroy();
   }
-
  */
 }
 
