@@ -785,6 +785,8 @@ function setup() {
 
   if(bomb_.isTouching(in1)){
     bomb_.velocityX = 4;
+    bomb_.visible = false;;
+  bomb_r.visible = true;
   }
 
   if(bomb_.isTouching(in2)&&gameState === 2){
@@ -794,6 +796,8 @@ function setup() {
 
   if(bomb_.isTouching(in2)){
     bomb_.velocityX = -4;
+    bomb_r.visible = false;
+    bomb_.visible = true;
   }
 
   if(bomb_1.isTouching(in1)&&gameState === 2 ){
@@ -803,6 +807,8 @@ function setup() {
 
   if(bomb_1.isTouching(in1)){
     bomb_1.velocityX = 4;
+    bomb_1.visible = false;
+    bomb_1r.visible = true;
   }
     
   if(bomb_1.isTouching(in2)&&gameState === 2){
@@ -812,6 +818,8 @@ function setup() {
 
   if(bomb_1.isTouching(in2)){
     bomb_1.velocityX = -4;
+    bomb_1r.visible = false;
+  bomb_1.visible = true;
   }
   if(mob_.isTouching(in3)){
   mob_.velocityX = 2;
