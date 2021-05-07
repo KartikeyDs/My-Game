@@ -1,6 +1,7 @@
+//                                           The Lost Fortress
 /*
-By Kartikey Das Shukla
-Guide Teacher - Shrutika Nikalje
+                                          By Kartikey Das Shukla
+                                     Guide Teacher - Shrutika Nikalje
 */
 
 var gameState = 0;
@@ -785,8 +786,6 @@ function setup() {
 
   if(bomb_.isTouching(in1)){
     bomb_.velocityX = 4;
-    bomb_.visible = false;;
-  bomb_r.visible = true;
   }
 
   if(bomb_.isTouching(in2)&&gameState === 2){
@@ -796,8 +795,6 @@ function setup() {
 
   if(bomb_.isTouching(in2)){
     bomb_.velocityX = -4;
-    bomb_r.visible = false;
-    bomb_.visible = true;
   }
 
   if(bomb_1.isTouching(in1)&&gameState === 2 ){
@@ -807,8 +804,6 @@ function setup() {
 
   if(bomb_1.isTouching(in1)){
     bomb_1.velocityX = 4;
-    bomb_1.visible = false;
-    bomb_1r.visible = true;
   }
     
   if(bomb_1.isTouching(in2)&&gameState === 2){
@@ -818,8 +813,6 @@ function setup() {
 
   if(bomb_1.isTouching(in2)){
     bomb_1.velocityX = -4;
-    bomb_1r.visible = false;
-  bomb_1.visible = true;
   }
   if(mob_.isTouching(in3)){
   mob_.velocityX = 2;
@@ -1905,22 +1898,6 @@ function startButton(){
   bricks_31.scale = 0.3;
   bricks_31.addImage("b_3_",bricks_1_Img);
 
-  
-//storm_so.play();
-
-/*
-ob_1 = createSprite(0, 50,0,0);
-ob_1.velocityX = +9.5;
-//ob_1.visible = false;
-ob_2 = createSprite(1365, 500,2,1000)
-//ob_2.visible = false;
-storm_ = createSprite(displayWidth-670, displayHeight-440, 10,10);
-storm_.scale = 2.3
-storm_.addAnimation("st_", storm_Img);
-if(ob_1.isTouching(ob_2)){
-  storm_.destroy();
-  }
- */
 }
 
 function endState(){
